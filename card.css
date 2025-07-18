@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+input{
+   display: block;
+   margin: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   outline: 0;
+   display: flex;
+   padding-left: 10px;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,rgba(243, 243, 83, 0.401),rgb(104, 250, 0.401),rgba(246, 103, 103,0.401));
+}
+/* #fif{
+    border: none;
+    margin: 0;
+} */
+#btn1{
+    padding: 0;
+    height: 30px;
+    width: 60px;
+}
+form{
+    background-color: rgba(97, 55, 137, 0.74);
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    width: 220px;
+    height: 190;
+}
+#btn1:active{
+    background-color: black;
+    color: white;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 250px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: linear-gradient(to right bottom,rgba(204, 217, 248, 0.762),rgba(99, 145, 244, 0.893),rgba(0, 81, 255, 0.882));
+}
+.imgs{
+    position: relative;
+    top: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+#hhhh{
+    position: absolute;
+    top: 100px;
+}
