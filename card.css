@@ -26,10 +26,10 @@ input{
     flex-direction: column;
     background: linear-gradient(to right,rgba(243, 243, 83, 0.401),rgb(104, 250, 0.401),rgba(246, 103, 103,0.401));
 }
-/* #fif{
+#fif{
     border: none;
     margin: 0;
-} */
+}
 #btn1{
     padding: 0;
     height: 30px;

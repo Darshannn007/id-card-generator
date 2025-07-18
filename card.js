@@ -17,7 +17,7 @@ form.addEventListener("submit",function(val){
 
      let h4 = document.createElement("h4");
      h4.textContent = inputs[0].value;
-
+     
      let h5 = document.createElement("h5");
      h5.textContent = inputs[1].value;
      
