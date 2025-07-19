@@ -13,7 +13,11 @@ form.addEventListener("submit",function(val){
      image.classList.add("imgs");
 
      let img = document.createElement("img");
-     img.setAttribute("src",inputs[3].value);
+     // img.setAttribute("src",inputs[3].value);
+     const selectedFile = inputs[3].files[0];
+     if (selectedFile) {
+        img.src = URL.createObjectURL(selectedFile);
+    }
 
      let h4 = document.createElement("h4");
      h4.textContent = inputs[0].value;
@@ -34,9 +38,4 @@ form.addEventListener("submit",function(val){
 
      main.appendChild(card);
 
-     inputs.forEach(function(inpppp){
-          if(inpppp.type !== "submit"){
-     inpppp.value="";
-          }
-     })
 });
